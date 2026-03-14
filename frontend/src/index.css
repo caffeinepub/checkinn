@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --radius: 0.75rem;
+        --background: 0.98 0 0;
+        --foreground: 0.15 0 0;
+        --card: 1 0 0;
+        --card-foreground: 0.15 0 0;
+        --popover: 1 0 0;
+        --popover-foreground: 0.15 0 0;
+        --primary: 0.55 0.25 330;
+        --primary-foreground: 1 0 0;
+        --secondary: 0.95 0.05 330;
+        --secondary-foreground: 0.2 0 0;
+        --muted: 0.96 0 0;
+        --muted-foreground: 0.5 0 0;
+        --accent: 0.95 0.05 330;
+        --accent-foreground: 0.2 0 0;
+        --destructive: 0.55 0.25 20;
+        --destructive-foreground: 1 0 0;
+        --border: 0.9 0 0;
+        --input: 0.9 0 0;
+        --ring: 0.55 0.25 330;
+        --chart-1: 0.6 0.22 330;
+        --chart-2: 0.65 0.18 300;
+        --chart-3: 0.7 0.15 270;
+        --chart-4: 0.75 0.12 240;
+        --chart-5: 0.8 0.1 210;
+    }
+
+    .dark {
+        --background: 0.15 0.05 280;
+        --foreground: 0.98 0 0;
+        --card: 0.2 0.05 280;
+        --card-foreground: 0.98 0 0;
+        --popover: 0.18 0.05 280;
+        --popover-foreground: 0.98 0 0;
+        --primary: 0.65 0.25 330;
+        --primary-foreground: 0.98 0 0;
+        --secondary: 0.25 0.08 280;
+        --secondary-foreground: 0.98 0 0;
+        --muted: 0.25 0.05 280;
+        --muted-foreground: 0.7 0 0;
+        --accent: 0.3 0.1 300;
+        --accent-foreground: 0.98 0 0;
+        --destructive: 0.55 0.25 20;
+        --destructive-foreground: 0.98 0 0;
+        --border: 1 0 0 / 10%;
+        --input: 1 0 0 / 15%;
+        --ring: 0.65 0.25 330;
+        --chart-1: 0.6 0.22 330;
+        --chart-2: 0.65 0.18 300;
+        --chart-3: 0.7 0.15 270;
+        --chart-4: 0.75 0.12 240;
+        --chart-5: 0.8 0.1 210;
+    }
+
+    * {
+        @apply border-border;
+    }
+    
+    body {
+        @apply bg-background text-foreground;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+}

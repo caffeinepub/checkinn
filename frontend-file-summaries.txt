@@ -1,0 +1,16 @@
+{
+  "frontend/src/App.tsx": "Main application component that handles authentication flow, profile setup, approval status, and routing between landing page, admin dashboard, and main app based on user state.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for all backend operations including user profiles, approvals, user discovery, likes/matches, messaging, and admin functions with proper cache invalidation.",
+  "frontend/src/components/Header.tsx": "Application header displaying \"Checkinn\" branding with heart icon, user name display, and logout functionality for authenticated users.",
+  "frontend/src/components/Footer.tsx": "Footer component with branding and caffeine.ai attribution link.",
+  "frontend/src/components/LandingPage.tsx": "Landing page for unauthenticated users showcasing app features with hero image and login button.",
+  "frontend/src/components/ProfileSetup.tsx": "Profile creation form with photo upload, personal details, creative field, bio, and interests with upload progress tracking.",
+  "frontend/src/components/ApprovalPending.tsx": "Pending approval screen shown to users waiting for admin approval after profile creation.",
+  "frontend/src/components/MainApp.tsx": "Main application container with tabbed navigation between Discover, Matches, and Profile sections.",
+  "frontend/src/components/DiscoverTab.tsx": "Swipe-style interface for browsing other approved members with like/pass functionality.",
+  "frontend/src/components/MatchesTab.tsx": "Grid display of matched users with ability to open chat dialogs.",
+  "frontend/src/components/ChatDialog.tsx": "Real-time messaging interface between matched users with message history and send functionality.",
+  "frontend/src/components/ProfileTab.tsx": "Display of current user's profile information including photo, bio, and creative field.",
+  "frontend/src/components/AdminDashboard.tsx": "Admin interface with tabs for managing user approvals and generating invite codes with statistics.",
+  "frontend/src/index.css": "Global styles with OKLCH color system featuring purple/pink gradient theme for romantic, exclusive aesthetic."
+}
